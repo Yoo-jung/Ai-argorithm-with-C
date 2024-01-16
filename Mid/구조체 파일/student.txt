@@ -1,0 +1,6 @@
+Student 5
+Student Kim 100, 99, 80, 93.00
+Student Moon 100, 100, 100, 100.00
+Student Park 66, 78, 40, 61.33
+Student Wang 30, 36, 89, 51.67
+Student Lee 89, 99, 100, 96.00

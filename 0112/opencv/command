@@ -1,0 +1,8 @@
+%% OPENCV command
+g++ [C++ file name] -o [output file name] `pkg-config --cflags --libs opencv4`
+
+g++ open1.cpp -o o1 `pkg-config --cflags --libs opencv4`
+
+%% in code file
+$ #include "opencv2/opencv.hpp"
+$ using namespace cv;

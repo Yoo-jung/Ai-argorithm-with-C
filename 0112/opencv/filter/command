@@ -1,0 +1,11 @@
+%% OPENCV command
+g++ [C++ file name] -o [output file name] `pkg-config --cflags --libs opencv4`
+
+g++ open1.cpp -o o1 `pkg-config --cflags --libs opencv4`
+
+%% in code file
+$ #include "opencv2/opencv.hpp"
+$ using namespace cv;
+
+%% Filter value
+필터 값에 따라 블러 자르기 등등의 효과를 적용할 수 있다.
